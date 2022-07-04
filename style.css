@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 
 span {
@@ -7,7 +8,8 @@ span {
 }
 
 section {
-    display: flex;
+    display: flow-root;
+    margin-bottom: 5%;
 }
 
 .half {
@@ -23,4 +25,21 @@ section {
     padding: 10px 40px;
     border-radius: 5px;
 
+}
+
+.banner {
+    background-image: url(images/top-banner.png 
+);
+    background-repeat: no-repeat;
+}
+
+section {
+    display: flex;
+}
+
+.half {
+    background-image: url(images/dream-bg.png
+);
+    background-repeat: no-repeat;
+    background-position: right;
 }
